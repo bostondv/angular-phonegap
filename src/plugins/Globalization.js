@@ -63,5 +63,5 @@ angular.module('PhoneGap')
                     $window.navigator.globalization.getCurrencyPattern(currencyCode, successCallback, errorCallback);
                 });
             }
-        }
+        };
     });
