@@ -1,9 +1,5 @@
 'use strict';
 
-var ContactFindOptions = ContactFindOptions || function () {
-    return undefined;
-};
-
 angular.module('PhoneGap')
     .factory('Contacts', function ($q, $window, $timeout, $rootScope, PhoneGap) {
         return {
